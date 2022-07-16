@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #131111;
+    height: 80px;
+    position: relative;
+}
+
+.logo{
+    height: 78px;
+    width: auto;
+    float: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    float: right;
+    padding: 5px;
+    margin-top: 25px;
+    margin-right: 25px;
+    font-size: large;
+}
+
+nav a:hover{
+    color: grey;
+    border: 1px solid rgb(245, 242, 242);
+    border-radius: 5%;
+}
+
+.container{
+    height: 600px;
+}
+
+.container .wel{
+    color: mintcream;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .btn{
+    background-color: royalblue;
+    color: aliceblue;
+    border: 2px solid royalblue;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: large;
+    padding: 15px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about{
+    height: 550px;
+    background-color: #131111;
+}
+
+.about h2{
+    padding-left: 100px;
+    padding-top: 150px;
+    text-align: left;
+    color: white;
+    word-wrap: break-word;
+    word-spacing: 2px;
+    font-size: 30px;
+}
+
+.about h4{
+    padding: 50px 10px 40px 100px;
+    text-align: left;
+    color: rgb(100, 199, 199);
+    word-wrap: break-word;
+    word-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.about a{
+    color: rgb(100, 199, 199);
+    padding-left: 100px;
+    float: left;
+}
+
+.about p a{
+    color: rgb(100, 199, 199);
+    float: left;
+    margin-left: 10px;
+    padding: 3px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.about img{
+    float: right;
+    margin-top: -170px;
+    margin-right: 200px;
+}
+
+.btn:hover{
+    background-color: rgb(107, 107, 241);
+    border-color: rgb(107, 107, 241);
+}
+
+.contact{
+    height: 600px;
+    background-color: #131111;
+}
+
+.contact h2{
+    text-align: left;
+    color: aliceblue;
+    padding: 100px 10px 10px 100px;
+    font-size: 30px;
+}
+
+.contact h3{
+    color: rgb(100, 199, 199);
+    padding: 40px 10px 10px 100px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.contact p{
+    padding: 10px 10px 40px 100px;
+    text-align: left;
+    color: rgb(100, 199, 199);
+    word-wrap: break-word;
+    word-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.form{
+    float: right;
+    padding: 50px;
+    margin-top: -350px;
+    margin-right: 400px;
+}
+
+.form input{
+    width: 200%;
+    padding: 10px;
+}
+
+.form textarea{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 196%;
+}
+
+.form .form-control{
+    margin-bottom: 20px;
+}
+
+.form button{
+    border: 2px solid royalblue;
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+    cursor:pointer;
+}
+
+footer{
+    background-color: grey;
+    height: 90px;
+}
+
+.social{
+    padding: 25px;
+    margin-left: 70px;
+    float: left;
+    width: 30%;
+}
+
+.social a{
+    padding: 5px;
+    color: wheat;
+}
+
+.social a:hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    color: aliceblue;
+    padding: 35px;
+    margin-right: 70px;
+    float: right;
+}
